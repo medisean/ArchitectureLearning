@@ -16,6 +16,8 @@
 		C46D2F6721BBCFE700300F90 /* ArchitectureLeaningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F6621BBCFE700300F90 /* ArchitectureLeaningUITests.swift */; };
 		C46D2F7A21BBD15000300F90 /* MVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F7921BBD15000300F90 /* MVCTableViewCell.swift */; };
 		C46D2F7C21BBD2AA00300F90 /* MVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F7B21BBD2AA00300F90 /* MVCModel.swift */; };
+		C46D2F7F21BBD69700300F90 /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F7E21BBD69700300F90 /* MVPViewController.swift */; };
+		C46D2F8121BC204000300F90 /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F8021BC204000300F90 /* MVPPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C46D2F6821BBCFE700300F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C46D2F7921BBD15000300F90 /* MVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCTableViewCell.swift; sourceTree = "<group>"; };
 		C46D2F7B21BBD2AA00300F90 /* MVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCModel.swift; sourceTree = "<group>"; };
+		C46D2F7E21BBD69700300F90 /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
+		C46D2F8021BC204000300F90 /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,11 @@
 		C46D2F4521BBCFE600300F90 /* ArchitectureLeaning */ = {
 			isa = PBXGroup;
 			children = (
-				C46D2F5221BBCFE700300F90 /* Info.plist */,
 				C46D2F7621BBD05000300F90 /* Resource */,
 				C46D2F7521BBD02400300F90 /* Storyboard */,
 				C46D2F7421BBD00900300F90 /* MVC */,
+				C46D2F7D21BBD66600300F90 /* MVP */,
+				C46D2F5221BBCFE700300F90 /* Info.plist */,
 				C46D2F4621BBCFE600300F90 /* AppDelegate.swift */,
 			);
 			path = ArchitectureLeaning;
@@ -153,6 +158,15 @@
 				C46D2F4D21BBCFE700300F90 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		C46D2F7D21BBD66600300F90 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				C46D2F7E21BBD69700300F90 /* MVPViewController.swift */,
+				C46D2F8021BC204000300F90 /* MVPPresenter.swift */,
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46D2F7C21BBD2AA00300F90 /* MVCModel.swift in Sources */,
+				C46D2F7F21BBD69700300F90 /* MVPViewController.swift in Sources */,
 				C46D2F7A21BBD15000300F90 /* MVCTableViewCell.swift in Sources */,
 				C46D2F4921BBCFE600300F90 /* MVCViewController.swift in Sources */,
+				C46D2F8121BC204000300F90 /* MVPPresenter.swift in Sources */,
 				C46D2F4721BBCFE600300F90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
