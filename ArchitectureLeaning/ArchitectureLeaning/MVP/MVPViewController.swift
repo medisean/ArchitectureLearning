@@ -10,6 +10,10 @@ import UIKit
 
 class MVPViewController: UITableViewController {
 
+    lazy var presenter: MVPPresenter = {
+        return MVPPresenter(view: self.view)
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

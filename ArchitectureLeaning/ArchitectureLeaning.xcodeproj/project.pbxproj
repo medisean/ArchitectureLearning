@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C453FF38223786F5007D1793 /* MVPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453FF37223786F5007D1793 /* MVPModel.swift */; };
 		C46D2F4721BBCFE600300F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F4621BBCFE600300F90 /* AppDelegate.swift */; };
 		C46D2F4921BBCFE600300F90 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2F4821BBCFE600300F90 /* MVCViewController.swift */; };
 		C46D2F4C21BBCFE600300F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46D2F4A21BBCFE600300F90 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C453FF37223786F5007D1793 /* MVPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPModel.swift; sourceTree = "<group>"; };
 		C46D2F4321BBCFE600300F90 /* ArchitectureLeaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureLeaning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46D2F4621BBCFE600300F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C46D2F4821BBCFE600300F90 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C453FF362237867E007D1793 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		C46D2F3A21BBCFE600300F90 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +118,7 @@
 				C46D2F7521BBD02400300F90 /* Storyboard */,
 				C46D2F7421BBD00900300F90 /* MVC */,
 				C46D2F7D21BBD66600300F90 /* MVP */,
+				C453FF362237867E007D1793 /* MVVM */,
 				C46D2F5221BBCFE700300F90 /* Info.plist */,
 				C46D2F4621BBCFE600300F90 /* AppDelegate.swift */,
 			);
@@ -165,6 +175,7 @@
 			children = (
 				C46D2F7E21BBD69700300F90 /* MVPViewController.swift */,
 				C46D2F8021BC204000300F90 /* MVPPresenter.swift */,
+				C453FF37223786F5007D1793 /* MVPModel.swift */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -306,6 +317,7 @@
 				C46D2F4921BBCFE600300F90 /* MVCViewController.swift in Sources */,
 				C46D2F8121BC204000300F90 /* MVPPresenter.swift in Sources */,
 				C46D2F4721BBCFE600300F90 /* AppDelegate.swift in Sources */,
+				C453FF38223786F5007D1793 /* MVPModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol GetDataSuccess {
     func onGetDataSuccess()
@@ -15,6 +16,6 @@ protocol GetDataSuccess {
 class MVPPresenter {
     var view: UIView?
     init(view: UIView) {
-        
+        self.view = view
     }
 }
